@@ -30,14 +30,19 @@ ___
 　　　　　　　　　　　山口誠叶(ゲーム・アニメ3DCG学科1年)  
 　　　　　　　　　　　井上瑶子(ゲーム・アニメ3DCG学科1年)
 ___
-# 担当箇所 
-見てほしいところ、担当したところ  
-全体的な設計  
-ModeGameMain.cpp  
-EnemyAAA.cppのAddBullet関数(動画の中での対空砲の球状発射)  
-GameBase.cpp  
-GameServerShared.cpp  
-GameServerUnique.cpp  
+# 担当箇所
+### AppFrame全般
+
+### AppFrame/source/Base/GameBase.h
+
+### AppFrame/source/Base/GameServerShared.h 
+
+### AppFrame/source/Base/GameServerUnique.h 
+
+### PULLCON0.9/PULLCON0.9/source/mode/ModeMainGame.h
+  
+
+
 ___
 # 起動方法 
 * pullcon0.9フォルダ内のexeファイルをダブルクリックでゲームが起動します。

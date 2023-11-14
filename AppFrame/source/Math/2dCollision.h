@@ -1,9 +1,12 @@
 #pragma once
-//!
-//! @file Collision.h
-//!
-//! @brief Õ“ËŒŸ’m
-//!
+/*****************************************************************//**
+ * \file   2dCollision.h
+ * \brief  2dÕ“ËŒŸ’m
+ * 
+ * \author ˆ¢•”Œ’‘¾˜Y
+ * \date   November 2022
+ *********************************************************************/
+
 #include "Math.h"
 #include "vector2.h"
 namespace math

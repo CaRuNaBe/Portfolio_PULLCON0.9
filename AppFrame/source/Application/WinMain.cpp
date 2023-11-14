@@ -1,18 +1,13 @@
-/*
-** WinMain
-*/
-
-//
-// include 部
-//
+/*****************************************************************//**
+ * \file   WinMain.cpp
+ * \brief  エントリーポイント
+ * 
+ * \author 阿部健太郎
+ * \date   November 2022
+ *********************************************************************/
 
 #include "../appframe.h"
 
-
-
-//
-// WinMain(). プログラム起動関数
-//
 int WINAPI WinMain(_In_ HINSTANCE hInstance,_In_opt_ HINSTANCE hPrevInstance,_In_ LPSTR lpCmdLine,_In_ int nShowCmd)
 {
   // Log出力を行わない
@@ -28,7 +23,7 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance,_In_opt_ HINSTANCE hPrevInstance,_In
     return 0;
   }
 
-  // 1フレームループを組む ----------------------------------------------------------
+  // 1フレームループを組む
   while( ProcessMessage() == 0 )// プログラムが終了するまでループ
   {
     appBase->Input();
@@ -37,6 +32,7 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance,_In_opt_ HINSTANCE hPrevInstance,_In
     {
       break;
     };
+
     appBase->Draw();
   }
 

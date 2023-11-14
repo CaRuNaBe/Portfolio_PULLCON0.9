@@ -45,21 +45,23 @@ public:
   {
     return 0;
   }
+  /** 自分のインスタンス取得 */
   static ApplicationBase* GetInstance()
   {
     return _lpInstance;
   }
-  //ゲームモード管理クラス取得
+  /** ゲームモード管理クラス取得 */
   std::shared_ptr<GameServerShared<GameBase>> GetModeServer()
   {
     return _BaseServer;
   }
 
-  //入力取得
+  /* 入力取得 */
   InputManager& Getinput()
   {
     return _input;
   }
+ 
   int& GetFontHandle()
   {
     return font_hundle;

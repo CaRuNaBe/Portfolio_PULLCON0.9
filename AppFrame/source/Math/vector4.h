@@ -1,6 +1,13 @@
+/*****************************************************************//**
+ * \file   Vector4.h
+ * \brief  3Dベクトルクラス定義
+ * 
+ * \author 阿部健太郎
+ * \date   November 2022
+ *********************************************************************/
 #pragma once
 #include <limits>
-#include<cmath>
+#include <cmath>
 namespace math
 {
   class matrix44;

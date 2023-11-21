@@ -30,25 +30,27 @@ ___
 　　　　　　　　　　　山口誠叶(ゲーム・アニメ3DCG学科1年)  
 　　　　　　　　　　　井上瑶子(ゲーム・アニメ3DCG学科1年)
 ___
-# 担当箇所
-### [AppFrame全般](https://github.com/CaRuNaBe/Portfolio_PULLCON0.9/tree/main/AppFrame/source)
+# プロジェクト概要
+このプログラムは冬期チーム制作でゲームを制作しそれのソースコードです。
 
-### [AppFrame/source/Base/GameBase.h](https://github.com/CaRuNaBe/Portfolio_PULLCON0.9/blob/main/AppFrame/source/Base/GameBase.h)
+プレイヤーは戦闘ヘリであるが最初は弱い武器しか積まれておらず現地の対空砲を引っ張って自分の武器にします。
+その武器は引っ張れば引っ張るほど対空砲が下に伸びていき強くなって行きます。
+途中敵の気球船から2種の戦闘機が飛んで来て邪魔だてしてきますが、撃墜していき
+最終的にステージにあるすべてのを飛行艇倒したらクリアです。
 
-### [AppFrame/source/Base/GameServerShared.h](https://github.com/CaRuNaBe/Portfolio_PULLCON0.9/blob/main/AppFrame/source/Base/GameServerShared.h)
-
-### [AppFrame/source/Base/GameServerUnique.h](https://github.com/CaRuNaBe/Portfolio_PULLCON0.9/blob/main/AppFrame/source/Base/GameServerUnique.h)
-
-### [PULLCON0.9/PULLCON0.9/source/mode/ModeMainGame.h](https://github.com/CaRuNaBe/Portfolio_PULLCON0.9/blob/main/PULLCON0.9/PULLCON0.9/source/mode/ModeMainGame.h)
-  
-
+このゲームはプログラマー2人で制作し、私はフレームワークの制作と、ゲームの敵のスポーン位置や自分のスポーン位置の制御スクリプトの制作をし、もう一人は自プレイヤーの制御と敵の動きの制御を担当しました。この制作は2回目のチーム制作で、開発する上で意識した点は2人以上のプログラマーの連絡手段です。作ったものやどんな動きをするのかをSlackなどに逐一報告するようにし互いに何を作っているのか明確化するようにしました。また共通の基底クラスや管理クラス設計をし見やすい文を目指しました。
+___
+# ディレクトリツリー/ファイル説明
+DIRECTORY.md
 
 ___
+
 # 起動方法 
 * pullcon0.9フォルダ内のexeファイルをダブルクリックでゲームが起動します。
 ___
 # 操作
-### 操作方法
+### 操作方法 
+XInputコントローラーのみ対応
 * 左スティック：プレイヤー移動
 * 右スティック：カメラ移動
 * A,Bボタン：上昇、下降
@@ -56,12 +58,6 @@ ___
 * Xボタン     ：引っこ抜きモード
 ### 終了方法
 * タイトル画面のEndを選択、またはAlt+F4
-___
-# ゲーム説明
-ヘリコプターを操縦して、数多の敵を爽快に倒せる！
-しかし、敵は強大だ！鉄の棺桶"ガンシップ"を倒すには力不足…。
-だがご安心を。新兵器"ヒッコヌキ・チェーン"であなたを狙う対空砲をぶち抜き、
-自身の装備を増強できる！引っこ抜くを軸にした駆け引きを楽しみながら、ハイアドレナリン・フライトコンバットを堪能する！
 ___
 
 # ライセンス
@@ -94,10 +90,9 @@ ___
  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
- </details>
+</details>
  
- <details>
-
+<details>
 <summary>DXライブラリ</summary>
 DX Library Copyright (C) 2001-2023 Takumi Yamada.
   
@@ -261,3 +256,5 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Bullet　Copyright (c) 2003-2006 Erwin Coumans.
 </details>
+
+___
